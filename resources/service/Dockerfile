@@ -1,5 +1,5 @@
 # Use the capui5tools for the first stage build
-FROM shibajichandra/capui5tools 
+FROM shibajichandra/capui5tools AS capbuild
 # Create app directory, in which the CAP service is built
 WORKDIR /app
 # Copy source
