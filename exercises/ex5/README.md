@@ -26,6 +26,9 @@ To push the Docker files we will create in the next steps to the right registry 
 - Save the changes
 
 ## Exercise 5.2 - DEPLOYMENT OPTION 2 - kubectl
+** In the dockerfle remove AS clause. For Windows system it should look like:
+# Use the capui5tools for the first stage build
+FROM shibajichandra/capui5tools 
 
 - Build and push the container to your docker account
 
